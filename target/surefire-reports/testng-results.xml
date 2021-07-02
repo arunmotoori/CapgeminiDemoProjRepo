@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-02T12:13:09 IST" name="Surefire suite" finished-at="2021-07-02T12:13:25 IST" duration-ms="15971">
+    <groups>
+    </groups>
+    <test started-at="2021-07-02T12:13:09 IST" name="Surefire test" finished-at="2021-07-02T12:13:25 IST" duration-ms="15971">
+      <class name="packone.TwoTest">
+        <test-method signature="testOneA()[pri:0, instance:packone.TwoTest@65e98b1c]" started-at="2021-07-02T12:13:18 IST" name="testOneA" finished-at="2021-07-02T12:13:24 IST" duration-ms="6291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:packone.TwoTest@65e98b1c]" started-at="2021-07-02T12:13:24 IST" name="tearDown" finished-at="2021-07-02T12:13:25 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- packone.TwoTest -->
+      <class name="packone.OneTest">
+        <test-method signature="testOneA()[pri:0, instance:packone.OneTest@6150c3ec]" started-at="2021-07-02T12:13:09 IST" name="testOneA" finished-at="2021-07-02T12:13:17 IST" duration-ms="7794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:packone.OneTest@6150c3ec]" started-at="2021-07-02T12:13:17 IST" name="tearDown" finished-at="2021-07-02T12:13:18 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- packone.OneTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
